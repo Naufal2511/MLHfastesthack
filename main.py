@@ -4,7 +4,7 @@ from flask.templating import render_template
 app= Flask(__name__)
 app.secret_key = "SOME KEY"
 
-@app.route('/', method=['GET'])
+@app.route('/', methods=['GET'])
 def main():
     return render_template('index.html')
 

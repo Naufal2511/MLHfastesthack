@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 100vw ;
+            height: 100vh ; 
+            display: flex ; 
+            align-items: center;
+            justify-content: center;
+        }
+        .container button   {
+            border: none ; 
+            background: red ;
+            color: yellow ; 
+            font-size: x-large;
+            height: 12% ; 
+            width: 20% ;
+        }
+        .container button:hover {
+            border: 2px solid yellow ; 
+        }
+        .container button:active{
+            background: Yellow ;
+            color: red ; 
+        }
+    </style>
+</head>
+<body>
+    <div id = "container" class="container">
+        <button onclick = change()>Click to see wonders !</button>
+    </div>
+</body>
+<script>
+    function change()   {
+
+        var el = document.getElementById("container") ;
+        el.style.background = "red" ;
+    }
+</script>
+</html>
