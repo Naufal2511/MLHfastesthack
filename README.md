@@ -6,4 +6,10 @@ made for MLH Hackcon world's fastest hackathon in 30 MINUTES!
 
 ## output
 
+## demo video
+
+![video](/assets/output/MLHuseless.mov)
+
 ![Full Adder scematics](/assets/output/world's_useless_hack.jpg)
+
+
