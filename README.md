@@ -8,7 +8,7 @@ made for MLH Hackcon world's fastest hackathon in 30 MINUTES!
 
 ## demo video
 
-![video](/assets/output/MLHuseless.mov)
+[video on youtube](https://youtu.be/NevuumS7Bhk)
 
 ![Full Adder scematics](/assets/output/world's_useless_hack.jpg)
 
